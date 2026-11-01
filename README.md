@@ -24,6 +24,20 @@ official Spotify app doesn't need to run. It uses about 30 MB of memory instead 
 
 ## Install
 
+### Flatpak (any distro)
+
+Download `pengufy.flatpak` from the [latest release](https://github.com/hTulu07/pengufy/releases/latest), then:
+
+```sh
+flatpak install --user pengufy.flatpak
+flatpak run io.github.htulu07.Pengufy
+```
+
+It needs the KDE 6.11 runtime from [Flathub](https://flathub.org/setup), which Flatpak downloads by itself.
+To build it yourself: `flatpak-builder --user --install build packaging/flatpak/io.github.htulu07.Pengufy.yml`
+
+### From source
+
 You need PyQt6 and python `requests` from your distro (the installer tells you the exact command if one is missing):
 
 ```sh

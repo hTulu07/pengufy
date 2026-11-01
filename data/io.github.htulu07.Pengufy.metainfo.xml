@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.htulu07.Pengufy</id>
+  <name>Pengufy</name>
+  <summary>A simple, single-page Spotify player</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <developer id="io.github.htulu07">
+    <name>Huseyin Tulu</name>
+  </developer>
+  <description>
+    <p>Pengufy keeps Spotify down to the basics: one window with a search box, your library and a player bar.
+    Sound comes from a small built-in engine (spotifyd), so the official Spotify app doesn't need to run.</p>
+    <ul>
+      <li>Search songs</li>
+      <li>Liked Songs and your playlists</li>
+      <li>Play, pause, skip, seek, shuffle, repeat and volume</li>
+      <li>Media keys and desktop media controls</li>
+    </ul>
+    <p>Requires Spotify Premium and your own free Spotify developer Client ID.
+    Pengufy is not affiliated with Spotify.</p>
+  </description>
+  <launchable type="desktop-id">io.github.htulu07.Pengufy.desktop</launchable>
+  <url type="homepage">https://github.com/hTulu07/pengufy</url>
+  <url type="bugtracker">https://github.com/hTulu07/pengufy/issues</url>
+  <provides>
+    <binary>pengufy</binary>
+  </provides>
+  <categories>
+    <category>AudioVideo</category>
+    <category>Audio</category>
+    <category>Player</category>
+  </categories>
+  <content_rating type="oars-1.1"/>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Search results</caption>
+      <image>https://raw.githubusercontent.com/hTulu07/pengufy/main/screenshots/search.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>First start</caption>
+      <image>https://raw.githubusercontent.com/hTulu07/pengufy/main/screenshots/setup.png</image>
+    </screenshot>
+  </screenshots>
+  <branding>
+    <color type="primary" scheme_preference="light">#b5f5cf</color>
+    <color type="primary" scheme_preference="dark">#0f3d26</color>
+  </branding>
+  <releases>
+    <release version="1.1.0" date="2026-11-01">
+      <description><p>Flatpak package.</p></description>
+    </release>
+    <release version="1.0.0" date="2026-11-01"/>
+  </releases>
+</component>

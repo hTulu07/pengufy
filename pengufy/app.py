@@ -19,7 +19,7 @@ from .widgets import Cover, Seek, TrackTable, label, tool
 
 APP_ID = "io.github.htulu07.Pengufy"
 APP_NAME = "Pengufy"
-VERSION = "1.0.0"
+VERSION = "1.1.0"
 SOCKET_NAME = "pengufy-instance"
 DASHBOARD = "https://developer.spotify.com/dashboard"
 
