@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Pengufy
+GenericName=Music Player
+Comment=A simple Spotify player for Linux
+Exec=pengufy
+Icon=io.github.htulu07.Pengufy
+Terminal=false
+Categories=AudioVideo;Audio;Player;Music;Qt;
+Keywords=spotify;music;player;stream;
+StartupWMClass=pengufy
+StartupNotify=true
+SingleMainWindow=true
