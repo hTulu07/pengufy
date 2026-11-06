@@ -12,6 +12,10 @@ official Spotify app doesn't need to run. It uses about 30 MB of memory instead 
 
 > Pengufy is an unofficial app. It is not affiliated with or endorsed by Spotify.
 > **Spotify Premium is required** (for both the engine and Spotify's developer API).
+>
+> **Known issue:** Spotify now refuses audio keys to librespot-based players on some accounts
+> ([librespot #1649](https://github.com/librespot-org/librespot/issues/1649)). A track can start and then skip after
+> about ten seconds, with `error audio key 0 1` in the engine log. Search and the library (Spotify's Web API) are not affected.
 
 ## Features
 
